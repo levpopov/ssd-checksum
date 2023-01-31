@@ -3,4 +3,4 @@
 
  Fills an SSD with random 100MB files, and then verifies that they can be read back correctly.
 
- usage: python capacity.py path_to_ssd
+ usage: python ssd-checksum.py path_to_ssd

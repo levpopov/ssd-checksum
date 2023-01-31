@@ -61,7 +61,7 @@ def verify_all_files(path, size):
 def main():
   print("ssd-checksum: fills SSD with random files, and then verifies that they can be read back correctly.")
   if len(sys.argv) != 2:
-    print('usage: python capacity.py <path_to_ssd>')
+    print('usage: python ssd-checksum.py <path_to_ssd>')
     sys.exit(1)
 
   path = sys.argv[1]
